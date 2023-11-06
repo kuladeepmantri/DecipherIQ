@@ -60,7 +60,7 @@ If you’re using Windows, you can set the environment variable by following the
 - Under “User variables”, click on “New”.
 - Enter OPENAI_API_KEY as the variable name and your API key as the variable value.
 - Click “OK” to save the changes.
-- After setting the environment variable, you can run the Cipher Identifier application by following the instructions I provided earlier.
+- After setting the environment variable, you can run the application by following the instructions I provided earlier.
 
 ### Usage
 
