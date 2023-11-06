@@ -41,6 +41,27 @@ cd DecipherIQ
 pip install -r requirements.txt
 ```
 
+### OpenAI API 
+
+To set the OpenAI API key as an environment variable, follow these steps:
+
+1. Open the terminal or command prompt.
+2 . Type "export OPENAI_API_KEY=<your_api_key>" and press Enter. Replace <your_api_key> with your actual API key.
+3. Run the following command to verify that the environment variable has been set correctly:
+```bash
+echo $OPENAI_API_KEY
+```
+
+If you’re using Windows, you can set the environment variable by following these steps:
+
+- Open the Start menu and search for “Environment Variables”.
+- Click on “Edit the system environment variables”.
+- Click on the “Environment Variables” button.
+- Under “User variables”, click on “New”.
+- Enter OPENAI_API_KEY as the variable name and your API key as the variable value.
+- Click “OK” to save the changes.
+- After setting the environment variable, you can run the Cipher Identifier application by following the instructions I provided earlier.
+
 ### Usage
 
 Once you have Python installed, follow these steps:
