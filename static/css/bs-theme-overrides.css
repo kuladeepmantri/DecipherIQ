@@ -1,0 +1,58 @@
+:root, [data-bs-theme=light] {
+  --bs-primary: #39ff14;
+  --bs-primary-rgb: 57,255,20;
+  --bs-primary-text-emphasis: #176608;
+  --bs-primary-bg-subtle: #D7FFD0;
+  --bs-primary-border-subtle: #B0FFA1;
+  --bs-body-color: #ffffff;
+  --bs-body-color-rgb: 255,255,255;
+  --bs-secondary-color: rgba(255,255,255,0.75);
+  --bs-secondary-color-rgb: 255,255,255,0.75;
+  --bs-tertiary-color: rgba(255,255,255,0.5);
+  --bs-tertiary-color-rgb: 255,255,255,0.5;
+  --bs-body-bg: #000000;
+  --bs-body-bg-rgb: 0,0,0;
+}
+
+.btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #39ff14;
+  --bs-btn-border-color: #39ff14;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #57FF37;
+  --bs-btn-hover-border-color: #4DFF2B;
+  --bs-btn-focus-shadow-rgb: 9,38,3;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #61FF43;
+  --bs-btn-active-border-color: #4DFF2B;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #39ff14;
+  --bs-btn-disabled-border-color: #39ff14;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #39ff14;
+  --bs-btn-border-color: #39ff14;
+  --bs-btn-focus-shadow-rgb: 57,255,20;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #39ff14;
+  --bs-btn-hover-border-color: #39ff14;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #39ff14;
+  --bs-btn-active-border-color: #39ff14;
+  --bs-btn-disabled-color: #39ff14;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #39ff14;
+}
+
+/* For Webkit-based browsers (Chrome, Safari) */
+/* Change the color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #39ff14;
+}
+
+/* Change the color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+  background: rgba(255, 255, 255, 0.137);
+}
