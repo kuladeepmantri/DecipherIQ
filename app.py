@@ -13,7 +13,7 @@ def home():
         user_input = request.form.get('textboc')
         response = openai.Completion.create(
             engine="text-davinci-003",
-            prompt=f"Analyze the given input, which appears to be a hash or cipher, and determine its type. If you can confidently identify the encryption method, explain further what kind of encryption it is and how to decode it. If you cannot determine the exact type, make an educated guess based on your analysis. Please provide as much detail as possible in your response.:\n{user_input}",
+            prompt= {user_input},
             max_tokens=150
         )
         generated_text = response.choices[0].text.strip()
